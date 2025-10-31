@@ -1,9 +1,9 @@
-﻿### Solar-System
-
+﻿## Solar-System
+Live: https://3d-solar-system-by-rahul.netlify.app/
 ## git clone https://rahul-websource.github.io/3D-Solar-System/
 
 Structure:
-Sample <img width="1287" height="897" alt="image" src="https://github.com/user-attachments/assets/71a7e520-3f18-4ba6-a8bf-0aa9364ea1dc" />
+Project Ui: <img width="1556" height="1028" alt="image" src="https://github.com/user-attachments/assets/eebd1b8d-912b-48e4-a0db-72d8c0426d8d" />
 
 #### index.html: 
 #### The main HTML file that contains the basic layout of the solar system.
@@ -13,6 +13,7 @@ Sample <img width="1287" height="897" alt="image" src="https://github.com/user-a
 #### CSS 3D Transforms: Used to rotate the planets and simulate orbital movements.
 
 #### JavaScript Logic: Controls the animation speed, interactivity (rotate, zoom), and handles mouse events (e.g., clicking a planet).
+
 
 
 
