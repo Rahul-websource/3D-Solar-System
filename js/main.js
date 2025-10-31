@@ -89,16 +89,9 @@ function init() {
   planet_uranus = loadPlanetTexture("../img/uranus_hd.jpg", 6, 100, 100, 'standard');
   planet_neptune = loadPlanetTexture("../img/neptune_hd.jpg", 5, 100, 100, 'standard');
 
-  // planet_earth_label = new THREE.TextGeometry( text, parameters );
-  // planet_mercury_label = loadPlanetTexture("../img/mercury_hd.jpg", 2, 100, 100);
-  // planet_venus_label = loadPlanetTexture("../img/venus_hd.jpg", 3, 100, 100);
-  // planet_mars_label = loadPlanetTexture("../img/mars_hd.jpg", 3.5, 100, 100);
-  // planet_jupiter_label = loadPlanetTexture("../img/jupiter_hd.jpg", 10, 100, 100);
-  // planet_saturn_label = loadPlanetTexture("../img/saturn_hd.jpg", 8, 100, 100);
-  // planet_uranus_label = loadPlanetTexture("../img/uranus_hd.jpg", 6, 100, 100);
-  // planet_neptune_label = loadPlanetTexture("../img/neptune_hd.jpg", 5, 100, 100);
 
-  // ADD PLANETS TO THE SCENE
+
+  // ADD PLANETS--- SCENE
   scene.add(planet_earth);
   scene.add(planet_sun);
   scene.add(planet_mercury);
@@ -163,12 +156,7 @@ function animate(time) {
   planet_uranus.rotation.y += rotationSpeed;
   planet_neptune.rotation.y += rotationSpeed;
 
-  // Revolve planets around the sun
-  // const orbitSpeedMultiplier = 0.001;
-  // Earth
-  // const earthOrbitAngle = time * orbitSpeedMultiplier;
-  // planet_earth.position.x = planet_sun.position.x + earth_orbit_radius * Math.cos(earthOrbitAngle);
-  // planet_earth.position.z = planet_sun.position.z + earth_orbit_radius * Math.sin(earthOrbitAngle);
+  
   planetRevolver(time, mercury_revolution_speed, planet_mercury, mercury_orbit_radius, 'mercury')
   planetRevolver(time, venus_revolution_speed, planet_venus, venus_orbit_radius, 'venus')
   planetRevolver(time, earth_revolution_speed, planet_earth, earth_orbit_radius, 'earth')
@@ -194,4 +182,4 @@ function onWindowResize() {
 window.addEventListener("resize", onWindowResize, false);
 
 init();
-animate(0); // Initialize with time 0
+animate(0); // Init----time 0
