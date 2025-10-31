@@ -11,6 +11,6 @@ Structure:
 # img /: Folder for any images or other assets used (optional).
 # CSS 3D Transforms: Used to rotate the planets and simulate orbital movements.
 
-# JavaScript Logic: Controls the animation speed, interactivity (rotate, zoom), and handles mouse events (e.g., clicking a planet).
+#### JavaScript Logic: Controls the animation speed, interactivity (rotate, zoom), and handles mouse events (e.g., clicking a planet).
 
 
