@@ -1,4 +1,33 @@
-﻿## Solar-System
+# 🌌 3D Solar System
+
+🚀 **Live Demo:** [3D Solar System by Rahul](https://3d-solar-system-by-rahul.netlify.app/)  
+📦 **GitHub Clone URL:** `https://rahul-websource.github.io/3D-Solar-System/`
+
+---
+
+## 🌞 Overview
+The **3D Solar System** is an interactive web-based simulation that visually represents our solar system using **HTML, CSS, and JavaScript**.  
+It demonstrates real-time **planetary rotation, orbit animation, and interactivity** through modern web technologies — offering a visually engaging and educational experience.
+
+---
+
+## 🧠 Features
+- 🪐 **Realistic 3D Orbit Animation** using CSS 3D transforms  
+- ☀️ **Central Sun** with orbiting planets  
+- 🌍 **Individual Planet Rotation** and self-spin animation  
+- 🖱️ **Interactive Controls:** Rotate and zoom using mouse events  
+- ⚙️ **JavaScript Animation Logic:** Smooth transitions and orbit mechanics  
+- 🎨 **Clean & Responsive UI** built with CSS and HTML5  
+
+---
+
+## 🏗️ Project Structure
+
+ 
+ 
+ 
+ 
+ ## Solar-System
 Live: https://3d-solar-system-by-rahul.netlify.app/
 ## git clone https://rahul-websource.github.io/3D-Solar-System/
 
@@ -13,6 +42,7 @@ Project Ui: <img width="1556" height="1028" alt="image" src="https://github.com/
 #### CSS 3D Transforms: Used to rotate the planets and simulate orbital movements.
 
 #### JavaScript Logic: Controls the animation speed, interactivity (rotate, zoom), and handles mouse events (e.g., clicking a planet).
+
 
 
 
